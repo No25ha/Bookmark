@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmark</title>  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Bookmarker</h1>
+  <p>Bookmark your favorite sites</p>
+
+  <form id="bookmarkForm">
+    <label for="site_name">Site Name</label>
+    <input placeholder="Bookmark Name" id="site_name" type="text">
+
+    <label for="site_url">Site URL</label>
+    <input placeholder="Website URL" id="site_url" type="text">
+
+    <button type="button" id="submitBtn">Submit</button>
+  </form>
+
+  <table>
+    <tr>
+      <th>Index</th>
+      <th>Website Name</th>
+      <th>Visit</th>
+      <th>Delete</th>
+    </tr>
+    <tbody id="bookmarksTable"></tbody>
+  </table>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
